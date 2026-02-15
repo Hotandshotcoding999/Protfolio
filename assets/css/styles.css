@@ -255,19 +255,19 @@ img {
 
 @keyframes words{
     0%, 20%{
-        content: "Stores Assistant Attendant";
+        content: "IT Support Executive";
     }
     21%, 40%{
-        content: "Front-End Web Developer";
-    }
-    41%, 60%{
         content: "Help Desk Analyst";
     }
+    41%, 60%{
+        content: "Technical Support Associate";
+    }
     61%, 80%{
-        content: "Data Entry Operator";
+        content: "";
     }
     81%, 100%{
-        content: "Tally Operator";
+        content: "";
     }
 }
 
