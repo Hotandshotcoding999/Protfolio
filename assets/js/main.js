@@ -103,3 +103,14 @@ sr.reveal('.skills__data, .work-text, .work-role, .work-image, .work__img, .serv
       });
     }
   });
+
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent default form submission
+
+    emailjs.sendForm('service_4b4r7j2', 'template_1pyuxag', this)
+        .then(function() {
+            alert('Message sent successfully!');
+        }, function(error) {
+            alert('Failed to send message: ' + JSON.stringify(error));
+        });
+});
