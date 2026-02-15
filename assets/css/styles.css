@@ -341,29 +341,29 @@ img {
   border-radius: 0.5rem;
   z-index: var(--z-back);
 }
-.skills__html {
+.skills__windowsosinsttall {
+  width: 85%;
+}
+.skills__hardware {
   width: 80%;
 }
-.skills__css {
-  width: 80%;
-}
-.skills__js {
-  width: 60%;
-}
-.skills__support {
+.skills__networking {
   width: 75%;
 }
-.skills__sap {
-  width: 60%;
+.skills__softwareinstall {
+  width: 85%;
 }
-.skills__word {
-  width: 80%;
+.skills__ms-office {
+  width: 90%;
 }
-.skills__excel {
-  width: 80%;
-}
-.skills__tally {
+.skills__linux {
   width: 65%;
+}
+.skills__solving {
+  width: 80%;
+}
+.skills__user-support {
+  width: 80%;
 }
 .skills__img {
   border-radius: 0.5rem;
@@ -435,6 +435,10 @@ img {
   border-radius: 4px;
 }
 
+.cert-link {
+  color: #000;
+}
+
 .timeline-entry:hover {
   background: #3e6ff4;
   box-shadow: 0 0 10px #3e6ff4, 0 0 20px #3e6ff4;
@@ -453,10 +457,23 @@ img {
   padding: 60px 20px;
 }
 
+.exp-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
 .section-title {
   text-align: center;
   font-size: 2rem;
   margin-bottom: 40px;
+}
+
+.section-subtitle {
+  color: #000;
+}
+
+.view-file {
+  color: #3e6ff4;
 }
 
 .work-container {
