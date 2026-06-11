@@ -255,13 +255,13 @@ img {
 
 @keyframes words{
     0%, 20%{
-        content: "IT Support Executive";
+        content: "IT Support Associate";
     }
     21%, 40%{
-        content: "Help Desk Analyst";
+        content: " IT Help Desk Analyst";
     }
     41%, 60%{
-        content: "Technical Support Associate";
+        content: "Desktop Support Engineer";
     }
     61%, 80%{
         content: "";
